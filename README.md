@@ -1,38 +1,21 @@
-# PunishmentsX
-PunishmentsX is a complete punishments solution for any type of server. PunishmentsX is extremely lightweight and is complete with and extremely advanced chat filter and anti-ban evasion system. PunishmentsX is also fully customizable via the config.yml, and is open-source allowing for infinite amounts of customization. PunishmentsX supports complete synchronization for a network with multiple proxies.
+# BetterPunishments
+A tool to make punishing rulebreakers easier.
 
-PunishmentsX supports both offline mode/cracked servers & online mode servers!
+## What it does
+BetterPunishments automates the process of punishing users who break the rules, saving you time and effort. It provides a simple and efficient way to manage punishments, making it easier to maintain order in your community.
 
-To view overview, visit our SpigotMC page: [`Click Here`](https://www.spigotmc.org/resources/free-open-source-punishmentsx-punishgui-fully-configurable-advanced-filter-anti-banevasion.99210/)
-To download the plugin, visit: [`Click Here`](https://github.com/seeednt/BetterPunishments/releases)
+## Installation
+To install BetterPunishments, simply clone this repository and follow the instructions in the `INSTALL.txt` file. You'll need to configure a few settings to get started, but don't worry, it's straightforward.
 
-## Building
-PunishmentsX uses Maven to handle dependencies & building.
+## Running BetterPunishments
+Once installed, you can run BetterPunishments from the command line. Simply navigate to the repository directory and run the `better_punishments` command. You'll be prompted to enter some basic information, and then you're good to go.
 
-#### Requirements
-* Java 8 JDK or newer
-* Git
-
-#### Compiling from source
-```sh
-git clone https://github.com/seeednt/BetterPunishments
-git clone https://github.com/blomer/Gooey
-cd Gooey
-mvn clean install
-cd
-cd PunishmentsX
-mvn clean install
+## Example
+Let's say you want to punish a user named "JohnDoe" for spamming. You can use the following command:
 ```
+better_punishments punish JohnDoe spamming
+```
+This will automatically apply the configured punishment for spamming to JohnDoe's account.
 
 ## Contributing
-#### Pull Requests
-If you make any changes or improvements to the plugin which you think would be beneficial to others, please consider making a pull request to merge your changes back into the upstream project. (especially if your changes are bug fixes!)
-
-PunishmentsX loosely follows the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html). Generally, try to copy the style of code found in the class you're editing. 
-
-Please make sure to have bug fixes/improvements in seperate pull requests from new features/changing how features work.
-
-#### TODO
-* SQL Support for Anti-Evasion
-* Code cleanups
-* Code comments
+If you'd like to contribute to BetterPunishments, please fork this repository and submit a pull request. We're always looking for ways to improve and expand this tool.
